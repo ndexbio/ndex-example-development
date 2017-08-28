@@ -1,0 +1,19 @@
+# SET ORGANISM = "Mouse"
+
+SET Evidence = "Mice expressing a tamoxifen-inducible \
+Cre driven by the keratin 14 promoter (K14CreER), which targets the \
+epidermal stem cell compartment8, were crossed with mice carrying \
+loxP sites surrounding Gnas exon one9 (Fig. 1a). Unexpectedly, all \
+Gnas epidermal knockout mice (Gnas eKO) developed skin lesions \
+characterized by thickening of the epidermis and hair loss, primarily \
+on the ears, snout and paws, only a few weeks after Gnas excision \
+(Fig. 1b,c and Supplementary Fig. 1). Histologically, these lesions \
+exhibited extensive proliferation of basaloid cells, which formed \
+clumps and islands that deeply invaded the underlying stroma \
+(Fig. 1d). Tumours were morphologically similar to superficial and \
+nodular human BCCs (ref. 10; Fig. 1e), developing in body regions \
+aligned with previous BCC mouse models"
+
+# SET ORGAN = "Epidermis"
+
+# p(HGNC:GNAS) -| bp(MESH:D002280)

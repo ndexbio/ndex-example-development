@@ -76,7 +76,7 @@ def create_term_map(annotation_file_path):
     #     else:
     #         term["genes"] = genes
 
-    print str(len(term_map)) + " terms annotated in term_map"
+    print(str(len(term_map))) + " terms annotated in term_map"
     return term_map
 
 
@@ -85,8 +85,8 @@ def propagate_ontology_under_root(ontology, root_term_id, term_map):
     if not root:
         raise "cannot find root term by id " + str(root_term_id)
     genes, term_ids = propagate(root, term_map)
-    print str(len(term_ids)) + " term ids under root " + str(root_term_id)
-    print str(len(genes)) + " genes annotated to terms"
+    print(str(len(term_ids)) + " term ids under root " + str(root_term_id))
+    print(str(len(genes)) + " genes annotated to terms")
 
 
 def propagate(term, term_map):
@@ -168,16 +168,16 @@ def ontology2NdexGraph(ontology, term_map, root_term_id):
     term_id_to_node_id_map = {}
     G = NdexGraph()
 
-    print "adding nodes"
+    print("adding nodes")
     # create all the nodes under root in ontology and add attributes, if any
     add_nodes(root, G, term_map, term_id_to_node_id_map)
 
-    print "added " + str(len(term_id_to_node_id_map)) + " nodes"
-    print "network now has  " + str(len(G.nodes())) + " nodes"
+    print("added " + str(len(term_id_to_node_id_map)) + " nodes")
+    print("network now has  " + str(len(G.nodes())) + " nodes")
 
-    print "adding edges"
+    print("adding edges")
     add_edges(root, G, term_id_to_node_id_map)
-    print "network now has  " + str(len(G.edges())) + " edges"
+    print("network now has  " + str(len(G.edges())) + " edges")
     return G
 
 def add_nodes(parent_term, network, term_map, term_id_to_node_id_map):
@@ -216,7 +216,7 @@ def add_edges(parent_term, network, term_id_to_node_id_map):
             if child_term.id in term_id_to_node_id_map:
                 child_node_id = term_id_to_node_id_map.get(child_term.id)
                 if child_node_id == parent_node_id:
-                    print "self loop : " + parent_term.name
+                    print("self loop : " + parent_term.name)
                 else:
                     edge_count = network.number_of_edges(child_node_id, parent_node_id)
                     if edge_count is 0:

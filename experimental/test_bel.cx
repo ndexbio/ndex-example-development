@@ -1,0 +1,417 @@
+[
+    {
+        "numberVerification": [
+            {
+                "longNumber": 281474976710655
+            }
+        ]
+    },
+    {
+        "metaData": [
+            {
+                "name": "@context",
+                "elementCount": 1,
+                "lastUpdate": 1492732919.858578,
+                "consistencyGroup": 1,
+                "properties": [],
+                "version": "1.0"
+            },
+            {
+                "name": "networkAttributes",
+                "elementCount": 6,
+                "lastUpdate": 1492732919.858582,
+                "consistencyGroup": 1,
+                "properties": [],
+                "version": "1.0"
+            },
+            {
+                "name": "nodes",
+                "elementCount": 7,
+                "lastUpdate": 1492732919.858583,
+                "consistencyGroup": 1,
+                "properties": [],
+                "version": "1.0",
+                "idCounter": 7
+            },
+            {
+                "name": "nodeAttributes",
+                "elementCount": 21,
+                "lastUpdate": 1492732919.8585842,
+                "consistencyGroup": 1,
+                "properties": [],
+                "version": "1.0"
+            },
+            {
+                "name": "edges",
+                "elementCount": 6,
+                "lastUpdate": 1492732919.8585842,
+                "consistencyGroup": 1,
+                "properties": [],
+                "version": "1.0",
+                "idCounter": 6
+            },
+            {
+                "name": "edgeAttributes",
+                "elementCount": 24,
+                "lastUpdate": 1492732919.8585851,
+                "consistencyGroup": 1,
+                "properties": [],
+                "version": "1.0"
+            }
+        ]
+    },
+    {
+        "@context": [
+            {
+                "namespace_url": {
+                    "CHEBI": "http://resources.openbel.org/belframework/20150611/namespace/chebi.belns",
+                    "HGNC": "http://resources.openbel.org/belframework/20150611/namespace/hgnc-human-genes.belns",
+                    "MGI": "http://resources.openbel.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
+                },
+                "namespace_owl": {},
+                "namespace_pattern": {},
+                "annotation_url": {
+                    "CHEBI": "http://resources.openbel.org/belframework/20150611/namespace/chebi.belns",
+                    "HGNC": "http://resources.openbel.org/belframework/20150611/namespace/hgnc-human-genes.belns",
+                    "MGI": "http://resources.openbel.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
+                },
+                "annotation_owl": {},
+                "annotation_pattern": {},
+                "annotation_list": {}
+            }
+        ]
+    },
+    {
+        "networkAttributes": [
+            {
+                "n": "ndex:sourceFormat",
+                "v": "PyBEL"
+            },
+            {
+                "n": "name",
+                "v": "GPCR Test Document 1"
+            },
+            {
+                "n": "description",
+                "v": "Experiment with Gutkind group paper"
+            },
+            {
+                "n": "authors",
+                "v": "NA"
+            },
+            {
+                "n": "contact",
+                "v": "NA"
+            },
+            {
+                "n": "version",
+                "v": "20170420"
+            }
+        ]
+    },
+    {
+        "nodes": [
+            {
+                "@id": 0,
+                "n": "Gnas"
+            },
+            {
+                "@id": 1,
+                "n": "Trp63"
+            },
+            {
+                "@id": 2,
+                "n": "Ezh2"
+            },
+            {
+                "@id": 3,
+                "n": "Gli1"
+            },
+            {
+                "@id": 4,
+                "n": "Nfatc1"
+            },
+            {
+                "@id": 5,
+                "n": "Nfatc2"
+            },
+            {
+                "@id": 6,
+                "n": "Yap1"
+            }
+        ]
+    },
+    {
+        "nodeAttributes": [
+            {
+                "po": 0,
+                "n": "function",
+                "v": "Protein"
+            },
+            {
+                "po": 0,
+                "n": "namespace",
+                "v": "MGI"
+            },
+            {
+                "po": 0,
+                "n": "identifier",
+                "v": "Gnas"
+            },
+            {
+                "po": 1,
+                "n": "function",
+                "v": "RNA"
+            },
+            {
+                "po": 1,
+                "n": "namespace",
+                "v": "MGI"
+            },
+            {
+                "po": 1,
+                "n": "identifier",
+                "v": "Trp63"
+            },
+            {
+                "po": 2,
+                "n": "function",
+                "v": "RNA"
+            },
+            {
+                "po": 2,
+                "n": "namespace",
+                "v": "MGI"
+            },
+            {
+                "po": 2,
+                "n": "identifier",
+                "v": "Ezh2"
+            },
+            {
+                "po": 3,
+                "n": "function",
+                "v": "RNA"
+            },
+            {
+                "po": 3,
+                "n": "namespace",
+                "v": "MGI"
+            },
+            {
+                "po": 3,
+                "n": "identifier",
+                "v": "Gli1"
+            },
+            {
+                "po": 4,
+                "n": "function",
+                "v": "RNA"
+            },
+            {
+                "po": 4,
+                "n": "namespace",
+                "v": "MGI"
+            },
+            {
+                "po": 4,
+                "n": "identifier",
+                "v": "Nfatc1"
+            },
+            {
+                "po": 5,
+                "n": "function",
+                "v": "RNA"
+            },
+            {
+                "po": 5,
+                "n": "namespace",
+                "v": "MGI"
+            },
+            {
+                "po": 5,
+                "n": "identifier",
+                "v": "Nfatc2"
+            },
+            {
+                "po": 6,
+                "n": "function",
+                "v": "RNA"
+            },
+            {
+                "po": 6,
+                "n": "namespace",
+                "v": "MGI"
+            },
+            {
+                "po": 6,
+                "n": "identifier",
+                "v": "Yap1"
+            }
+        ]
+    },
+    {
+        "edges": [
+            {
+                "@id": 0,
+                "s": 0,
+                "t": 6,
+                "i": "decreases"
+            },
+            {
+                "@id": 1,
+                "s": 0,
+                "t": 1,
+                "i": "decreases"
+            },
+            {
+                "@id": 2,
+                "s": 0,
+                "t": 2,
+                "i": "decreases"
+            },
+            {
+                "@id": 3,
+                "s": 0,
+                "t": 3,
+                "i": "decreases"
+            },
+            {
+                "@id": 4,
+                "s": 0,
+                "t": 4,
+                "i": "decreases"
+            },
+            {
+                "@id": 5,
+                "s": 0,
+                "t": 5,
+                "i": "decreases"
+            }
+        ]
+    },
+    {
+        "edgeAttributes": [
+            {
+                "po": 0,
+                "n": "evidence",
+                "v": "Gene ontology analysis of transcripts in the skin of Gnas eKO mice showed significantly increased expression of genes associated with epithelial development (Fig. 2a). Analysis of upregulated transcriptional signatures revealed alterations in multiple transcriptional networks (Supplementary Table 1) that were filtered by focusing on transcription factors with known functions in hair follicle and epidermal stem cell maintenance. These included GLI1, NFAT family genes, TP63, EZH2 and YAP1 (Fig. 2b). "
+            },
+            {
+                "po": 0,
+                "n": "citation_type",
+                "v": "PubMed"
+            },
+            {
+                "po": 0,
+                "n": "citation_name",
+                "v": "Inactivation of a G[alpha]s-PKA Tumour Suppressor Pathway in Skin Stem Cells Initiates Basal-Cell Carcinogenesis. Nature Cell Biology 17 (6). Nature Research: 793\u2013803."
+            },
+            {
+                "po": 0,
+                "n": "citation_reference",
+                "v": "25961504"
+            },
+            {
+                "po": 1,
+                "n": "evidence",
+                "v": "Gene ontology analysis of transcripts in the skin of Gnas eKO mice showed significantly increased expression of genes associated with epithelial development (Fig. 2a). Analysis of upregulated transcriptional signatures revealed alterations in multiple transcriptional networks (Supplementary Table 1) that were filtered by focusing on transcription factors with known functions in hair follicle and epidermal stem cell maintenance. These included GLI1, NFAT family genes, TP63, EZH2 and YAP1 (Fig. 2b). "
+            },
+            {
+                "po": 1,
+                "n": "citation_type",
+                "v": "PubMed"
+            },
+            {
+                "po": 1,
+                "n": "citation_name",
+                "v": "Inactivation of a G[alpha]s-PKA Tumour Suppressor Pathway in Skin Stem Cells Initiates Basal-Cell Carcinogenesis. Nature Cell Biology 17 (6). Nature Research: 793\u2013803."
+            },
+            {
+                "po": 1,
+                "n": "citation_reference",
+                "v": "25961504"
+            },
+            {
+                "po": 2,
+                "n": "evidence",
+                "v": "Gene ontology analysis of transcripts in the skin of Gnas eKO mice showed significantly increased expression of genes associated with epithelial development (Fig. 2a). Analysis of upregulated transcriptional signatures revealed alterations in multiple transcriptional networks (Supplementary Table 1) that were filtered by focusing on transcription factors with known functions in hair follicle and epidermal stem cell maintenance. These included GLI1, NFAT family genes, TP63, EZH2 and YAP1 (Fig. 2b). "
+            },
+            {
+                "po": 2,
+                "n": "citation_type",
+                "v": "PubMed"
+            },
+            {
+                "po": 2,
+                "n": "citation_name",
+                "v": "Inactivation of a G[alpha]s-PKA Tumour Suppressor Pathway in Skin Stem Cells Initiates Basal-Cell Carcinogenesis. Nature Cell Biology 17 (6). Nature Research: 793\u2013803."
+            },
+            {
+                "po": 2,
+                "n": "citation_reference",
+                "v": "25961504"
+            },
+            {
+                "po": 3,
+                "n": "evidence",
+                "v": "Gene ontology analysis of transcripts in the skin of Gnas eKO mice showed significantly increased expression of genes associated with epithelial development (Fig. 2a). Analysis of upregulated transcriptional signatures revealed alterations in multiple transcriptional networks (Supplementary Table 1) that were filtered by focusing on transcription factors with known functions in hair follicle and epidermal stem cell maintenance. These included GLI1, NFAT family genes, TP63, EZH2 and YAP1 (Fig. 2b). "
+            },
+            {
+                "po": 3,
+                "n": "citation_type",
+                "v": "PubMed"
+            },
+            {
+                "po": 3,
+                "n": "citation_name",
+                "v": "Inactivation of a G[alpha]s-PKA Tumour Suppressor Pathway in Skin Stem Cells Initiates Basal-Cell Carcinogenesis. Nature Cell Biology 17 (6). Nature Research: 793\u2013803."
+            },
+            {
+                "po": 3,
+                "n": "citation_reference",
+                "v": "25961504"
+            },
+            {
+                "po": 4,
+                "n": "evidence",
+                "v": "Gene ontology analysis of transcripts in the skin of Gnas eKO mice showed significantly increased expression of genes associated with epithelial development (Fig. 2a). Analysis of upregulated transcriptional signatures revealed alterations in multiple transcriptional networks (Supplementary Table 1) that were filtered by focusing on transcription factors with known functions in hair follicle and epidermal stem cell maintenance. These included GLI1, NFAT family genes, TP63, EZH2 and YAP1 (Fig. 2b). "
+            },
+            {
+                "po": 4,
+                "n": "citation_type",
+                "v": "PubMed"
+            },
+            {
+                "po": 4,
+                "n": "citation_name",
+                "v": "Inactivation of a G[alpha]s-PKA Tumour Suppressor Pathway in Skin Stem Cells Initiates Basal-Cell Carcinogenesis. Nature Cell Biology 17 (6). Nature Research: 793\u2013803."
+            },
+            {
+                "po": 4,
+                "n": "citation_reference",
+                "v": "25961504"
+            },
+            {
+                "po": 5,
+                "n": "evidence",
+                "v": "Gene ontology analysis of transcripts in the skin of Gnas eKO mice showed significantly increased expression of genes associated with epithelial development (Fig. 2a). Analysis of upregulated transcriptional signatures revealed alterations in multiple transcriptional networks (Supplementary Table 1) that were filtered by focusing on transcription factors with known functions in hair follicle and epidermal stem cell maintenance. These included GLI1, NFAT family genes, TP63, EZH2 and YAP1 (Fig. 2b). "
+            },
+            {
+                "po": 5,
+                "n": "citation_type",
+                "v": "PubMed"
+            },
+            {
+                "po": 5,
+                "n": "citation_name",
+                "v": "Inactivation of a G[alpha]s-PKA Tumour Suppressor Pathway in Skin Stem Cells Initiates Basal-Cell Carcinogenesis. Nature Cell Biology 17 (6). Nature Research: 793\u2013803."
+            },
+            {
+                "po": 5,
+                "n": "citation_reference",
+                "v": "25961504"
+            }
+        ]
+    }
+]
