@@ -1,0 +1,181 @@
+[
+    {
+        "numberVerification": [
+            {
+                "longNumber": 281474976710655
+            }
+        ]
+    }, 
+    {
+        "metaData": [
+            {
+                "idCounter": 4, 
+                "name": "nodes", 
+                "consistencyGroup": 1, 
+                "elementCount": 4, 
+                "version": "1.0", 
+                "properties": []
+            }, 
+            {
+                "idCounter": 4, 
+                "name": "edges", 
+                "consistencyGroup": 1, 
+                "elementCount": 4, 
+                "version": "1.0", 
+                "properties": []
+            }, 
+            {
+                "elementCount": 4, 
+                "properties": [], 
+                "version": "1.0", 
+                "consistencyGroup": 1, 
+                "name": "nodeAttributes"
+            }, 
+            {
+                "elementCount": 4, 
+                "properties": [], 
+                "version": "1.0", 
+                "consistencyGroup": 1, 
+                "name": "edgeAttributes"
+            }, 
+            {
+                "elementCount": 1, 
+                "properties": [], 
+                "version": "1.0", 
+                "consistencyGroup": 1, 
+                "name": "ndexStatus"
+            }
+        ]
+    }, 
+    {
+        "networkAttributes": []
+    }, 
+    {
+        "nodes": [
+            {
+                "@id": 1, 
+                "n": "Fox"
+            }
+        ]
+    }, 
+    {
+        "nodes": [
+            {
+                "@id": 2, 
+                "n": "Mouse"
+            }
+        ]
+    }, 
+    {
+        "nodes": [
+            {
+                "@id": 3, 
+                "n": "Bird"
+            }
+        ]
+    }, 
+    {
+        "nodes": [
+            {
+                "@id": 4, 
+                "n": "Seed"
+            }
+        ]
+    }, 
+    {
+        "edges": [
+            {
+                "i": "interacts with", 
+                "s": 1, 
+                "@id": 1, 
+                "t": 2
+            }
+        ]
+    }, 
+    {
+        "edges": [
+            {
+                "i": "interacts with", 
+                "s": 1, 
+                "@id": 2, 
+                "t": 3
+            }
+        ]
+    }, 
+    {
+        "edges": [
+            {
+                "i": "interacts_with", 
+                "s": 4, 
+                "@id": 3, 
+                "t": 2
+            }
+        ]
+    }, 
+    {
+        "edges": [
+            {
+                "i": "interacts_with", 
+                "s": 4, 
+                "@id": 4, 
+                "t": 3
+            }
+        ]
+    }, 
+    {
+        "nodeAttributes": [
+            {
+                "v": "Red", 
+                "po": 1, 
+                "n": "Color"
+            }, 
+            {
+                "v": "Brown", 
+                "po": 2, 
+                "n": "Color"
+            }, 
+            {
+                "v": "Blue", 
+                "po": 3, 
+                "n": "Color"
+            }, 
+            {
+                "v": "Brown", 
+                "po": 4, 
+                "n": "Color"
+            }
+        ]
+    }, 
+    {
+        "edgeAttributes": [
+            {
+                "v": "on the ground", 
+                "po": 1, 
+                "n": "Hunted"
+            }, 
+            {
+                "v": "in the sky", 
+                "po": 2, 
+                "n": "Hunted"
+            }, 
+            {
+                "v": "on the ground", 
+                "po": 3, 
+                "n": "Foraged"
+            }, 
+            {
+                "v": "on the ground", 
+                "po": 4, 
+                "n": "Foraged"
+            }
+        ]
+    }, 
+    {
+        "status": [
+            {
+                "success": true, 
+                "error": ""
+            }
+        ]
+    }
+]
