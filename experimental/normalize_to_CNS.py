@@ -5,6 +5,7 @@ import ndex.beta.layouts as layouts
 import ndex.networkn as networkn
 import argparse
 import modules.cns_normalize as cns
+import modules.cns_model as model
 
 def main():
     parser = argparse.ArgumentParser(description='normalize network to CNS format')
@@ -41,7 +42,7 @@ def main():
     # add edges, transforming to CNS
 
     if arg.layout:
-        layouts.apply_directed_flow_layout(to_network, directed_edge_types=cns.directed_predicates)
+        layouts.apply_directed_flow_layout(to_network, directed_edge_types=model.get_directed_predicates())
 
     if arg.template_id:
         response = my_ndex.get_network_as_cx_stream(arg.template_id)

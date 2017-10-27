@@ -23,9 +23,11 @@ wildtypesuffix = re.compile('_wt$', re.IGNORECASE)
 def normalize_name(name):
     return wildtypesuffix.sub("", name)
 
+
 def normalize(from_network):
     ont = cm.predicateOntology(cm.predicates)
     to_network = networkn.NdexGraph()
+    to_network.set_name(from_network.get_name())
     node_id_map = {}
     for from_node_id, from_node_attr in from_network.nodes_iter(data=True):
         from_node_attr['name'] = normalize_name(from_node_attr['name'])

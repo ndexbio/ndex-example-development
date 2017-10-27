@@ -46,6 +46,9 @@ class predicate:
     def get_name(self):
         return self.predicate_name
 
+    def get_directed(self):
+        return self.directed
+
     def add_sub_type(self, sub_type):
         self.sub_types.add(sub_type)
         sub_type.is_a.add(self)
@@ -75,6 +78,13 @@ class predicateOntology:
 
     def translate_name(self, name):
         return self.translation_map.get(name) or self.get_predicate(name)
+
+def get_directed_predicates():
+    directed_list = []
+    for predicate in predicates:
+        if predicate.get_directed():
+            directed_list.append(predicate.get_name())
+    return directed_list
 
 
 predicates = [
@@ -127,7 +137,8 @@ predicates = [
               contact=True,
               translation_of=[
                   'in-complex-with',
-                  'COMPLEX_EXPANSION'
+                  'COMPLEX_EXPANSION',
+                  'Complex'
               ],
               description="A binds B describes a physical binding - an interaction of " \
                           "sufficient duration for the combined species to be detected. " \
@@ -138,6 +149,11 @@ predicates = [
               directed=True),
     predicate(predicate_name='partOf',
               directed=True),
+
+    # ---------------------------------
+    # unspecified regulation
+    # ---------------------------------
+
     predicate(predicate_name='reg',
               long_name='regulates',
               directed=True,
@@ -172,13 +188,86 @@ predicates = [
               long_name='positivePhysicalRegulation',
               is_a=['posReg'],
               directed=True,
+              contact=True,
               translation_of=[
                   'PHYSICAL_STIMULATION',
                   'CATALYSIS'
               ]),
+
+    # ---------------------------------
+    # regulation of specific states
+    # ---------------------------------
+
+    # amounts
+    predicate(predicate_name='abReg',
+              long_name='abundanceRegulation',
+              is_a=['reg'],
+              directed=True,
+              description="unspecified regulation of abundance",
+              translation_of=[]
+              ),
+
+    predicate(predicate_name='posAbReg',
+              long_name='positiveAbundanceRegulation',
+              is_a=['abReg'],
+              directed=True,
+              description="increases abundance",
+              translation_of=[
+                  "IncreaseAmount"
+              ]),
+
+    predicate(predicate_name='negAbReg',
+              long_name='negativeAbundanceRegulation',
+              is_a=['abReg'],
+              directed=True,
+              description="decreases abundance",
+              translation_of=[
+                  "DecreaseAmount"
+
+              ]),
+
+    # transport
+    predicate(predicate_name='tportReg',
+              long_name='transportRegulation',
+              is_a=['reg'],
+              directed=True,
+              description="unspecified regulation of transport",
+              translation_of=[
+                  'controls-transport-of'
+              ]),
+
+    # transcription
+    predicate(predicate_name='tReg',
+              long_name='transcriptionalRegulation',
+              is_a=['reg'],
+              directed=True,
+              description="unspecified regulation of expression",
+              translation_of=[
+                  'controls-expression-of'
+              ]),
+    # ---------------------------------
+    # protein modifications
+    # ---------------------------------
+
+    predicate(predicate_name="addPM",
+              long_name="add protein modification",
+              is_a=['reg', 'physInt'],
+              contact=True,
+              directed=True,
+              translation_of=[]
+              ),
+
+    predicate(predicate_name="removePM",
+              long_name="remove protein modification",
+              is_a=['reg', 'physInt'],
+              contact=True,
+              directed=True,
+              translation_of=[]
+              ),
+
     predicate(predicate_name="phos",
               long_name="phosphorylates",
-              is_a=['reg', 'physInt'],
+              is_a=['addPM'],
               contact=True,
               directed=True,
               translation_of=[
@@ -186,20 +275,73 @@ predicates = [
                   "controls-phosphorylation-of"
               ]
               ),
-    predicate(predicate_name='tportReg',
-              long_name='transportRegulation',
-              is_a=['reg'],
+
+    predicate(predicate_name="dePhos",
+              long_name="dephosphorylates",
+              is_a=["removePM"],
+              contact=True,
               directed=True,
-              description = "unspecified regulation of transport",
               translation_of=[
-                  'controls-transport-of'
-              ]),
-    predicate(predicate_name='tReg',
-              long_name='transcriptionalRegulation',
-              is_a=['reg'],
+                  "Dephosphorylation",
+              ]
+              ),
+
+    predicate(predicate_name="acet",
+              long_name="acetylates",
+              is_a=['addPM'],
+              contact=True,
               directed=True,
-              description = "unspecified regulation of expression",
               translation_of=[
-                  'controls-expression-of'
-              ])
+                  "Acetylation",
+                  "controls-acetylation-of"
+              ]
+              ),
+    predicate(predicate_name="deAcet",
+              long_name="deacetylates",
+              is_a=["removePM"],
+              contact=True,
+              directed=True,
+              translation_of=[
+                  "Deacetylation",
+              ]
+              ),
+    predicate(predicate_name="meth",
+              long_name="methylates",
+              is_a=['addPM'],
+              contact=True,
+              directed=True,
+              translation_of=[
+                  "Methylation",
+                  "controls-methylation-of"
+              ]
+              ),
+    predicate(predicate_name="deMeth",
+              long_name="demethylates",
+              is_a=["removePM"],
+              contact=True,
+              directed=True,
+              translation_of=[
+                  "Demethylation",
+              ]
+              ),
+    predicate(predicate_name="ub",
+              long_name="ubiquitinates",
+              is_a=['addPM'],
+              contact=True,
+              directed=True,
+              translation_of=[
+                  "Ubiquitination",
+                  "controls-ubiquitination-of"
+              ]
+              ),
+    predicate(predicate_name="deUb",
+              long_name="deubiquitinates",
+              is_a=["removePM"],
+              contact=True,
+              directed=True,
+              translation_of=[
+                  "Deubiquitination",
+              ]
+              ),
+
 ]
