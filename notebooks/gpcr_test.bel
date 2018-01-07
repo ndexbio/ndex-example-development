@@ -1,0 +1,52 @@
+##################################################################################
+# Document Properties Section
+
+SET DOCUMENT Name = "GPCR Test Document 1"
+SET DOCUMENT Description = "Experiment with Gutkind group paper"
+SET DOCUMENT Authors = "NA"
+SET DOCUMENT ContactInfo = "NA"
+SET DOCUMENT Version = "20170420"
+
+
+##################################################################################
+# Definitions Section
+
+DEFINE NAMESPACE CHEBI AS URL "http://resources.openbel.org/belframework/20150611/namespace/chebi.belns"
+DEFINE NAMESPACE HGNC AS URL "http://resources.openbel.org/belframework/20150611/namespace/hgnc-human-genes.belns"
+DEFINE NAMESPACE MGI AS URL "http://resources.openbel.org/belframework/20150611/namespace/mgi-mouse-genes.belns"
+#DEFINE NAMESPACE MESH AS URL "http://identifiers.org/mesh"
+#DEFINE ANNOTATION PERTURBATION_METHOD AS LIST {"Cre-Lox Knockout"}
+
+##################################################################################
+# Statements Section
+
+SET STATEMENT_GROUP = "Group 1"
+
+SET Citation = {\
+"PubMed",\
+"Inactivation of a G[alpha]s-PKA Tumour Suppressor Pathway \
+in Skin Stem Cells Initiates Basal-Cell Carcinogenesis. Nature Cell Biology 17 (6). Nature Research: 793–803.", \
+"25961504", \
+# "doi:10.1038/ncb3164", \
+"2015", \
+"Iglesias-Bartolome, Ramiro, Daniela Torres, Romina Marone, Xiaodong Feng, Daniel Martin, May Simaan, Min Chen" \
+}
+
+#SET PERTURBATION_METHOD = "Cre-Lox Knockout"
+
+SET Evidence = "Gene ontology analysis of transcripts in the skin of Gnas eKO \
+mice showed significantly increased expression of genes associated \
+with epithelial development (Fig. 2a). Analysis of upregulated \
+transcriptional signatures revealed alterations in multiple transcriptional \
+networks (Supplementary Table 1) that were filtered by focusing \
+on transcription factors with known functions in hair follicle and \
+epidermal stem cell maintenance. These included GLI1, NFAT family \
+genes, TP63, EZH2 and YAP1 (Fig. 2b). "
+
+p(MGI:Gnas) -| r(MGI:Yap1)
+p(MGI:Gnas) -| r(MGI:Trp63)
+p(MGI:Gnas) -| r(MGI:Ezh2)
+p(MGI:Gnas) -| r(MGI:Gli1)
+p(MGI:Gnas) -| r(MGI:Nfatc1)
+p(MGI:Gnas) -| r(MGI:Nfatc2)
+
