@@ -5,6 +5,17 @@ nicecx = ndex2.NiceCXNetwork
 Ndex2 = ndex2.Ndex2
 
 
+
+example_config = {
+    "connections" : {
+        "main" : {
+            "server" : "http://dev.ndexbio.org",
+            "username" : "my_user",
+            "password" : "my_pass"
+        }
+    }
+}
+
 def load_tutorial_config(connection_name):
     username = None
     password = None
@@ -16,7 +27,7 @@ def load_tutorial_config(connection_name):
         config = json.load(file)
         file.close()
         connections = config.get("connections")
-        if connections and connections.length > 1:
+        if connections:
             if connection_name:
                 connection = connections.get(connection_name)
                 if connection and connection.get("password") and config.get("username"):
