@@ -4,12 +4,11 @@
         "BTO": "http://identifiers.org/bto/BTO:",
         "uniprot": "http://identifiers.org/uniprot/",
         "pubmed": "http://identifiers.org/pubmed/",
-        "cid": "http://identifiers.org/pubchem.compound/",
-        "sid": "http://identifiers.org/pubchem.substance/"
+        "CID": "http://identifiers.org/pubchem.compound/",
+        "SID": "http://identifiers.org/pubchem.substance/"
     },
     "source_plan":
     {
-        "rep_prefix": "uniprot",
         "rep_column": "IDA",
         "node_name_column": "ENTITYA",
         "property_columns":
@@ -17,12 +16,15 @@
                {
                     "column_name": "TYPEA",
                     "attribute_name": "TYPE"
+                },
+               {
+                    "column_name": "DATABASEA",
+                    "attribute_name": "DATABASE"
                 }
            ]
     },
     "target_plan":
     {
-        "rep_prefix": "uniprot",
         "rep_column": "IDB",
         "node_name_column": "ENTITYB",
         "property_columns":
@@ -30,6 +32,10 @@
                {
                     "column_name": "TYPEB",
                     "attribute_name": "TYPE"
+                },
+               {
+                    "column_name": "DATABASEB",
+                    "attribute_name": "DATABASE"
                 }
            ]
     },

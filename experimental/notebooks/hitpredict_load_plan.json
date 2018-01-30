@@ -1,0 +1,90 @@
+
+
+{
+    "context": {
+        "uniprot": "http://identifiers.org/uniprot/",
+        "pubmed": "http://identifiers.org/pubmed/",
+        "ncbigene": "http://identifiers.org/ncbigene/",
+        "ensembl": "http://identifiers.org/ensembl/"
+    },
+    "source_plan":
+    {
+        "rep_prefix": "uniprot",
+        "rep_column": "Uniprot1",
+        "node_name_column": "Name1",
+        "property_columns":
+           [
+               {
+                    "column_name": "Entrez1",
+                    "attribute_name": "Entrez"
+                },
+               {
+                    "column_name": "Ensembl1",
+                    "attribute_name": "Ensembl"
+                }
+           ]
+    },
+    "target_plan":
+    {
+        "rep_prefix": "uniprot",
+        "rep_column": "Uniprot2",
+        "node_name_column": "Name2",
+        "property_columns":
+           [
+               {
+                    "column_name": "Entrez2",
+                    "attribute_name": "Entrez"
+                },
+               {
+                    "column_name": "Ensembl2",
+                    "attribute_name": "Ensembl"
+                }
+           ]
+    },
+    "edge_plan":
+    {
+        "default_predicate": "correlation",
+        "predicate_id_column": "Interaction ID",
+        "citation_id_column": "PMID",
+        "citation_id_prefix": "pubmed",
+        
+        Uniprot1	Uniprot2	Name1	Name2	Entrez1	Entrez2	Ensembl1	Ensembl2	Taxonomy	Type	Source_db	Method_score	Annotation_score	Interaction_score	Confidence	In Pathway(s)	Interaction ID	PMID
+        "property_columns": [
+               {
+                    "column_name": "Taxonomy",
+                    "attribute_name": "Taxonomy"
+                },
+               {
+                    "column_name": "Type",
+                    "attribute_name": "Type"
+                },
+               {
+                    "column_name": "Source_db",
+                    "attribute_name": "Source_db"
+                },
+               {
+                    "column_name": "Method_score",
+                    "attribute_name": "Method_score",
+                    "data_type": "float"
+                },
+               {
+                    "column_name": "Annotation_score",
+                    "attribute_name": "Annotation_score",
+                    "data_type": "float"
+                },
+               {
+                    "column_name": "Interaction_score",
+                    "attribute_name": "Interaction_score",
+                    "data_type": "float"
+                },
+               {
+                    "column_name": "Confidence",
+                    "attribute_name": "Confidence",
+                },
+               {
+                    "column_name": "In Pathway(s)",
+                    "attribute_name": "In Pathway(s)"
+                }
+        ]
+    }
+}
