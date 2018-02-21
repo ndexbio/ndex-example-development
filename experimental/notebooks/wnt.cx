@@ -1,0 +1,1629 @@
+[
+  {
+    "numberVerification": [
+      {
+        "longNumber": 281474976710655
+      }
+    ]
+  },
+  {
+    "metaData": [
+      {
+        "name": "nodes",
+        "idCounter": 48,
+        "consistencyGroup": 1,
+        "elementCount": 6
+      },
+      {
+        "name": "edges",
+        "idCounter": 48,
+        "consistencyGroup": 1,
+        "elementCount": 14
+      },
+      {
+        "name": "citations",
+        "idCounter": 48,
+        "consistencyGroup": 1,
+        "elementCount": 28
+      },
+      {
+        "name": "edgeAttributes",
+        "idCounter": 48,
+        "consistencyGroup": 1,
+        "elementCount": 98
+      },
+      {
+        "name": "edgeCitations",
+        "idCounter": 48,
+        "consistencyGroup": 1,
+        "elementCount": 14
+      },
+      {
+        "name": "networkAttributes",
+        "idCounter": 48,
+        "consistencyGroup": 1,
+        "elementCount": 2
+      },
+      {
+        "name": "nodeAttributes",
+        "idCounter": 48,
+        "consistencyGroup": 1,
+        "elementCount": 16
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "@id": 0,
+        "n": "GRK5"
+      },
+      {
+        "@id": 1,
+        "n": "LRP6"
+      },
+      {
+        "@id": 4,
+        "n": "PI-4-5-P2"
+      },
+      {
+        "@id": 11,
+        "n": "CSNK1G1"
+      },
+      {
+        "@id": 25,
+        "n": "PPP2R5A"
+      },
+      {
+        "@id": 26,
+        "n": "CTNNB1"
+      }
+    ]
+  },
+  {
+    "edges": [
+      {
+        "@id": 2,
+        "s": 0,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 5,
+        "s": 4,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 8,
+        "s": 4,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 12,
+        "s": 11,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 16,
+        "s": 11,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 20,
+        "s": 11,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 22,
+        "s": 11,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 27,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 30,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 33,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 36,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 39,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 42,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 45,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      }
+    ]
+  },
+  {
+    "nodeAttributes": [
+      {
+        "po": 0,
+        "n": "type",
+        "v": "protein"
+      },
+      {
+        "po": 0,
+        "n": "HGNC",
+        "v": "http://identifiers.org/hgnc/HGNC:4544"
+      },
+      {
+        "po": 0,
+        "n": "UniProt",
+        "v": "http://identifiers.org/uniprot/P34947"
+      },
+      {
+        "po": 1,
+        "n": "type",
+        "v": "protein"
+      },
+      {
+        "po": 1,
+        "n": "HGNC",
+        "v": "http://identifiers.org/hgnc/HGNC:6698"
+      },
+      {
+        "po": 1,
+        "n": "UniProt",
+        "v": "http://identifiers.org/uniprot/O75581"
+      },
+      {
+        "po": 4,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 11,
+        "n": "type",
+        "v": "protein"
+      },
+      {
+        "po": 11,
+        "n": "HGNC",
+        "v": "http://identifiers.org/hgnc/HGNC:2454"
+      },
+      {
+        "po": 11,
+        "n": "UniProt",
+        "v": "http://identifiers.org/uniprot/Q9HCP0"
+      },
+      {
+        "po": 25,
+        "n": "type",
+        "v": "protein"
+      },
+      {
+        "po": 25,
+        "n": "HGNC",
+        "v": "http://identifiers.org/hgnc/HGNC:9309"
+      },
+      {
+        "po": 25,
+        "n": "UniProt",
+        "v": "http://identifiers.org/uniprot/Q15172"
+      },
+      {
+        "po": 26,
+        "n": "type",
+        "v": "protein"
+      },
+      {
+        "po": 26,
+        "n": "HGNC",
+        "v": "http://identifiers.org/hgnc/HGNC:2514"
+      },
+      {
+        "po": 26,
+        "n": "UniProt",
+        "v": "http://identifiers.org/uniprot/P35222"
+      }
+    ]
+  },
+  {
+    "edgeAttributes": [
+      {
+        "po": 2,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(GRK5(), LRP6(), S, 1490)"
+      },
+      {
+        "po": 2,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"GRK5\", \"db_refs\": {\"HGNC\": \"4544\", \"UP\": \"P34947\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"LRP6\", \"db_refs\": {\"HGNC\": \"6698\", \"UP\": \"O75581\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"1490\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"19801552\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_40dcdc00a231c59052094b4fbda50ae2\", \"epistemics\": {\"direct\": true}}], \"id\": \"0bf11da5-53e4-4457-a181-73093c60183f\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 2,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 2,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 2,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 2,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "GRK5",
+            "db_refs": {
+              "HGNC": "4544",
+              "UP": "P34947"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "LRP6",
+            "db_refs": {
+              "HGNC": "6698",
+              "UP": "O75581"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "1490",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "19801552",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_40dcdc00a231c59052094b4fbda50ae2",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "0bf11da5-53e4-4457-a181-73093c60183f",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 2,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 5,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(PI-4-5-P2(), LRP6(), T, 1479)"
+      },
+      {
+        "po": 5,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"PI-4-5-P2\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"LRP6\", \"db_refs\": {\"HGNC\": \"6698\", \"UP\": \"O75581\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"1479\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"19561074\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"18772438\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f\", \"epistemics\": {\"direct\": true}}], \"id\": \"d9158a75-8b87-499c-8f49-0286262eea2b\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 5,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 5,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 5,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 5,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "PI-4-5-P2",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "LRP6",
+            "db_refs": {
+              "HGNC": "6698",
+              "UP": "O75581"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "1479",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "19561074",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "18772438",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "d9158a75-8b87-499c-8f49-0286262eea2b",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 5,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 8,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(PI-4-5-P2(), LRP6(), S, 1490)"
+      },
+      {
+        "po": 8,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"PI-4-5-P2\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"LRP6\", \"db_refs\": {\"HGNC\": \"6698\", \"UP\": \"O75581\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"1490\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"19561074\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"18772438\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f\", \"epistemics\": {\"direct\": true}}], \"id\": \"3556f8d1-b22d-4519-ae01-1684236b246b\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 8,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 8,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 8,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 8,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "PI-4-5-P2",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "LRP6",
+            "db_refs": {
+              "HGNC": "6698",
+              "UP": "O75581"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "1490",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "19561074",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "18772438",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_9c87fba722b95cbc5ba7f1ecd741006f",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "3556f8d1-b22d-4519-ae01-1684236b246b",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 8,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 12,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(CSNK1G1(), LRP6(mods: (phosphorylation, S, 1490)), T, 1493)"
+      },
+      {
+        "po": 12,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"CSNK1G1\", \"db_refs\": {\"HGNC\": \"2454\", \"UP\": \"Q9HCP0\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"LRP6\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1490\", \"is_modified\": true}], \"db_refs\": {\"HGNC\": \"6698\", \"UP\": \"O75581\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"1493\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"16341017\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_231ea577e1da183cdd84681490d93a45\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"16341016\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_231ea577e1da183cdd84681490d93a45\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"18077588\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_231ea577e1da183cdd84681490d93a45\", \"epistemics\": {\"direct\": true}}], \"id\": \"d85a7bf7-4422-40c5-92d4-be05267ce8c1\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 12,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 12,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 12,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 12,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "CSNK1G1",
+            "db_refs": {
+              "HGNC": "2454",
+              "UP": "Q9HCP0"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "LRP6",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1490",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {
+              "HGNC": "6698",
+              "UP": "O75581"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "1493",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "16341017",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_231ea577e1da183cdd84681490d93a45",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "16341016",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_231ea577e1da183cdd84681490d93a45",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "18077588",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_231ea577e1da183cdd84681490d93a45",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "d85a7bf7-4422-40c5-92d4-be05267ce8c1",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 12,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 16,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(CSNK1G1(), LRP6(mods: (phosphorylation, T, 1479), (phosphorylation, S, 1490)), T, 1493)"
+      },
+      {
+        "po": 16,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"CSNK1G1\", \"db_refs\": {\"HGNC\": \"2454\", \"UP\": \"Q9HCP0\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"LRP6\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"T\", \"position\": \"1479\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1490\", \"is_modified\": true}], \"db_refs\": {\"HGNC\": \"6698\", \"UP\": \"O75581\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"1493\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"16341017\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_6392ef426dd7c3ba9e05398b695c4340\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19309792\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_6392ef426dd7c3ba9e05398b695c4340\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19107203\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_6392ef426dd7c3ba9e05398b695c4340\", \"epistemics\": {\"direct\": true}}], \"id\": \"630a0d4b-01cf-4a11-a198-10f7c80021ec\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 16,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 16,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 16,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 16,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "CSNK1G1",
+            "db_refs": {
+              "HGNC": "2454",
+              "UP": "Q9HCP0"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "LRP6",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "T",
+                "position": "1479",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1490",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {
+              "HGNC": "6698",
+              "UP": "O75581"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "1493",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "16341017",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_6392ef426dd7c3ba9e05398b695c4340",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19309792",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_6392ef426dd7c3ba9e05398b695c4340",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19107203",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_6392ef426dd7c3ba9e05398b695c4340",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "630a0d4b-01cf-4a11-a198-10f7c80021ec",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 16,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 20,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(CSNK1G1(), LRP6(mods: (phosphorylation, S, 1490)), T, 1493)"
+      },
+      {
+        "po": 20,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"CSNK1G1\", \"db_refs\": {\"HGNC\": \"2454\", \"UP\": \"Q9HCP0\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"LRP6\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1490\", \"is_modified\": true}], \"db_refs\": {\"HGNC\": \"6698\", \"UP\": \"O75581\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"1493\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"16341017\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_62d6a6b5a8c99f5074ce82573f03c0ea\", \"epistemics\": {\"direct\": true}}], \"id\": \"747594a8-a039-4c63-9099-b11973ca909e\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 20,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 20,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 20,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 20,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "CSNK1G1",
+            "db_refs": {
+              "HGNC": "2454",
+              "UP": "Q9HCP0"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "LRP6",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1490",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {
+              "HGNC": "6698",
+              "UP": "O75581"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "1493",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "16341017",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_62d6a6b5a8c99f5074ce82573f03c0ea",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "747594a8-a039-4c63-9099-b11973ca909e",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 20,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 22,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(CSNK1G1(), LRP6(), T, 1479)"
+      },
+      {
+        "po": 22,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"CSNK1G1\", \"db_refs\": {\"HGNC\": \"2454\", \"UP\": \"Q9HCP0\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"LRP6\", \"db_refs\": {\"HGNC\": \"6698\", \"UP\": \"O75581\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"1479\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"19309792\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_9bdb8f3f0214a9cd65c6294cbf06b801\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19107203\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_9bdb8f3f0214a9cd65c6294cbf06b801\", \"epistemics\": {\"direct\": true}}], \"id\": \"f73ecac8-4f05-443f-bbcc-ed3706013550\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 22,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 22,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 22,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 22,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "CSNK1G1",
+            "db_refs": {
+              "HGNC": "2454",
+              "UP": "Q9HCP0"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "LRP6",
+            "db_refs": {
+              "HGNC": "6698",
+              "UP": "O75581"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "1479",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "19309792",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_9bdb8f3f0214a9cd65c6294cbf06b801",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19107203",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_9bdb8f3f0214a9cd65c6294cbf06b801",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "f73ecac8-4f05-443f-bbcc-ed3706013550",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 22,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 27,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP2R5A(), CTNNB1(mods: (phosphorylation, S, 45)), S, 37)"
+      },
+      {
+        "po": 27,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP2R5A\", \"db_refs\": {\"HGNC\": \"9309\", \"UP\": \"Q15172\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"CTNNB1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"45\", \"is_modified\": true}], \"db_refs\": {\"HGNC\": \"2514\", \"UP\": \"P35222\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"37\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"11751573\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19556239\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}], \"id\": \"8f9add93-d975-4476-af40-c693c4139235\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 27,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 27,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 27,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 27,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP2R5A",
+            "db_refs": {
+              "HGNC": "9309",
+              "UP": "Q15172"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "CTNNB1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "45",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {
+              "HGNC": "2514",
+              "UP": "P35222"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "37",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "11751573",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19556239",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "8f9add93-d975-4476-af40-c693c4139235",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 27,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 30,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP2R5A(), CTNNB1(mods: (phosphorylation, S, 45)), T, 41)"
+      },
+      {
+        "po": 30,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP2R5A\", \"db_refs\": {\"HGNC\": \"9309\", \"UP\": \"Q15172\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"CTNNB1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"45\", \"is_modified\": true}], \"db_refs\": {\"HGNC\": \"2514\", \"UP\": \"P35222\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"41\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"11751573\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19556239\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}], \"id\": \"e090d735-1ea5-4144-9010-1fabc8abafa5\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 30,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 30,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 30,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 30,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP2R5A",
+            "db_refs": {
+              "HGNC": "9309",
+              "UP": "Q15172"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "CTNNB1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "45",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {
+              "HGNC": "2514",
+              "UP": "P35222"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "41",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "11751573",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19556239",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "e090d735-1ea5-4144-9010-1fabc8abafa5",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 30,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 33,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP2R5A(), CTNNB1(mods: (phosphorylation, S, 45)), S, 33)"
+      },
+      {
+        "po": 33,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP2R5A\", \"db_refs\": {\"HGNC\": \"9309\", \"UP\": \"Q15172\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"CTNNB1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"45\", \"is_modified\": true}], \"db_refs\": {\"HGNC\": \"2514\", \"UP\": \"P35222\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"33\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"11751573\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19556239\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}], \"id\": \"4a5fb0d0-29b2-43a0-8b6e-fe40b3380c1a\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 33,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 33,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 33,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 33,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP2R5A",
+            "db_refs": {
+              "HGNC": "9309",
+              "UP": "Q15172"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "CTNNB1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "45",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {
+              "HGNC": "2514",
+              "UP": "P35222"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "33",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "11751573",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19556239",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "4a5fb0d0-29b2-43a0-8b6e-fe40b3380c1a",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 33,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 36,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP2R5A(), CTNNB1(), S, 37)"
+      },
+      {
+        "po": 36,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP2R5A\", \"db_refs\": {\"HGNC\": \"9309\", \"UP\": \"Q15172\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"CTNNB1\", \"db_refs\": {\"HGNC\": \"2514\", \"UP\": \"P35222\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"37\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"11751573\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19556239\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}], \"id\": \"255ff2ea-480c-42ad-8883-790feb622e7d\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 36,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 36,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 36,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 36,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP2R5A",
+            "db_refs": {
+              "HGNC": "9309",
+              "UP": "Q15172"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "CTNNB1",
+            "db_refs": {
+              "HGNC": "2514",
+              "UP": "P35222"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "37",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "11751573",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19556239",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "255ff2ea-480c-42ad-8883-790feb622e7d",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 36,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 39,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP2R5A(), CTNNB1(), T, 41)"
+      },
+      {
+        "po": 39,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP2R5A\", \"db_refs\": {\"HGNC\": \"9309\", \"UP\": \"Q15172\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"CTNNB1\", \"db_refs\": {\"HGNC\": \"2514\", \"UP\": \"P35222\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"41\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"11751573\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19556239\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}], \"id\": \"fbaca8bb-ed6a-422b-bcf5-1b75f47e413d\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 39,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 39,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 39,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 39,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP2R5A",
+            "db_refs": {
+              "HGNC": "9309",
+              "UP": "Q15172"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "CTNNB1",
+            "db_refs": {
+              "HGNC": "2514",
+              "UP": "P35222"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "41",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "11751573",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19556239",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "fbaca8bb-ed6a-422b-bcf5-1b75f47e413d",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 39,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 42,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP2R5A(), CTNNB1(), S, 33)"
+      },
+      {
+        "po": 42,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP2R5A\", \"db_refs\": {\"HGNC\": \"9309\", \"UP\": \"Q15172\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"CTNNB1\", \"db_refs\": {\"HGNC\": \"2514\", \"UP\": \"P35222\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"33\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"11751573\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19556239\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}], \"id\": \"8b4182a4-df40-43b5-b068-0fef2c0cf733\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 42,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 42,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 42,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 42,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP2R5A",
+            "db_refs": {
+              "HGNC": "9309",
+              "UP": "Q15172"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "CTNNB1",
+            "db_refs": {
+              "HGNC": "2514",
+              "UP": "P35222"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "33",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "11751573",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19556239",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "8b4182a4-df40-43b5-b068-0fef2c0cf733",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 42,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 45,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP2R5A(), CTNNB1(), S, 45)"
+      },
+      {
+        "po": 45,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP2R5A\", \"db_refs\": {\"HGNC\": \"9309\", \"UP\": \"Q15172\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"CTNNB1\", \"db_refs\": {\"HGNC\": \"2514\", \"UP\": \"P35222\"}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"45\", \"evidence\": [{\"source_api\": \"biopax\", \"pmid\": \"11751573\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}, {\"source_api\": \"biopax\", \"pmid\": \"19556239\", \"source_id\": \"http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526\", \"epistemics\": {\"direct\": true}}], \"id\": \"2d7dc9df-c092-4f54-bbdd-0626e2638b4d\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 45,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 45,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 45,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 45,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP2R5A",
+            "db_refs": {
+              "HGNC": "9309",
+              "UP": "Q15172"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "CTNNB1",
+            "db_refs": {
+              "HGNC": "2514",
+              "UP": "P35222"
+            },
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "45",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "pmid": "11751573",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            },
+            {
+              "source_api": "biopax",
+              "pmid": "19556239",
+              "source_id": "http://pathwaycommons.org/pc2/Catalysis_3c59277be110c1621d689bcb886d5526",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "2d7dc9df-c092-4f54-bbdd-0626e2638b4d",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 45,
+        "n": "supportType",
+        "v": "database"
+      }
+    ]
+  },
+  {
+    "citations": [
+      {
+        "@id": 3,
+        "dc:identifier": "pmid:19801552"
+      },
+      {
+        "@id": 6,
+        "dc:identifier": "pmid:19561074"
+      },
+      {
+        "@id": 7,
+        "dc:identifier": "pmid:18772438"
+      },
+      {
+        "@id": 9,
+        "dc:identifier": "pmid:19561074"
+      },
+      {
+        "@id": 10,
+        "dc:identifier": "pmid:18772438"
+      },
+      {
+        "@id": 13,
+        "dc:identifier": "pmid:16341017"
+      },
+      {
+        "@id": 14,
+        "dc:identifier": "pmid:16341016"
+      },
+      {
+        "@id": 15,
+        "dc:identifier": "pmid:18077588"
+      },
+      {
+        "@id": 17,
+        "dc:identifier": "pmid:16341017"
+      },
+      {
+        "@id": 18,
+        "dc:identifier": "pmid:19309792"
+      },
+      {
+        "@id": 19,
+        "dc:identifier": "pmid:19107203"
+      },
+      {
+        "@id": 21,
+        "dc:identifier": "pmid:16341017"
+      },
+      {
+        "@id": 23,
+        "dc:identifier": "pmid:19309792"
+      },
+      {
+        "@id": 24,
+        "dc:identifier": "pmid:19107203"
+      },
+      {
+        "@id": 28,
+        "dc:identifier": "pmid:11751573"
+      },
+      {
+        "@id": 29,
+        "dc:identifier": "pmid:19556239"
+      },
+      {
+        "@id": 31,
+        "dc:identifier": "pmid:11751573"
+      },
+      {
+        "@id": 32,
+        "dc:identifier": "pmid:19556239"
+      },
+      {
+        "@id": 34,
+        "dc:identifier": "pmid:11751573"
+      },
+      {
+        "@id": 35,
+        "dc:identifier": "pmid:19556239"
+      },
+      {
+        "@id": 37,
+        "dc:identifier": "pmid:11751573"
+      },
+      {
+        "@id": 38,
+        "dc:identifier": "pmid:19556239"
+      },
+      {
+        "@id": 40,
+        "dc:identifier": "pmid:11751573"
+      },
+      {
+        "@id": 41,
+        "dc:identifier": "pmid:19556239"
+      },
+      {
+        "@id": 43,
+        "dc:identifier": "pmid:11751573"
+      },
+      {
+        "@id": 44,
+        "dc:identifier": "pmid:19556239"
+      },
+      {
+        "@id": 46,
+        "dc:identifier": "pmid:11751573"
+      },
+      {
+        "@id": 47,
+        "dc:identifier": "pmid:19556239"
+      }
+    ]
+  },
+  {
+    "edgeCitations": [
+      {
+        "citations": [
+          3
+        ],
+        "po": [
+          2
+        ]
+      },
+      {
+        "citations": [
+          6,
+          7
+        ],
+        "po": [
+          5
+        ]
+      },
+      {
+        "citations": [
+          9,
+          10
+        ],
+        "po": [
+          8
+        ]
+      },
+      {
+        "citations": [
+          13,
+          14,
+          15
+        ],
+        "po": [
+          12
+        ]
+      },
+      {
+        "citations": [
+          17,
+          18,
+          19
+        ],
+        "po": [
+          16
+        ]
+      },
+      {
+        "citations": [
+          21
+        ],
+        "po": [
+          20
+        ]
+      },
+      {
+        "citations": [
+          23,
+          24
+        ],
+        "po": [
+          22
+        ]
+      },
+      {
+        "citations": [
+          28,
+          29
+        ],
+        "po": [
+          27
+        ]
+      },
+      {
+        "citations": [
+          31,
+          32
+        ],
+        "po": [
+          30
+        ]
+      },
+      {
+        "citations": [
+          34,
+          35
+        ],
+        "po": [
+          33
+        ]
+      },
+      {
+        "citations": [
+          37,
+          38
+        ],
+        "po": [
+          36
+        ]
+      },
+      {
+        "citations": [
+          40,
+          41
+        ],
+        "po": [
+          39
+        ]
+      },
+      {
+        "citations": [
+          43,
+          44
+        ],
+        "po": [
+          42
+        ]
+      },
+      {
+        "citations": [
+          46,
+          47
+        ],
+        "po": [
+          45
+        ]
+      }
+    ]
+  },
+  {
+    "supports": []
+  },
+  {
+    "edgeSupports": []
+  },
+  {
+    "networkAttributes": [
+      {
+        "n": "name",
+        "v": "indra_assembled"
+      },
+      {
+        "n": "description",
+        "v": ""
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "error": "",
+        "success": true
+      }
+    ]
+  }
+]

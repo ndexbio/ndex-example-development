@@ -1,0 +1,1679 @@
+[
+  {
+    "numberVerification": [
+      {
+        "longNumber": 281474976710655
+      }
+    ]
+  },
+  {
+    "metaData": [
+      {
+        "name": "nodes",
+        "idCounter": 42,
+        "consistencyGroup": 1,
+        "elementCount": 24
+      },
+      {
+        "name": "edges",
+        "idCounter": 42,
+        "consistencyGroup": 1,
+        "elementCount": 18
+      },
+      {
+        "name": "edgeAttributes",
+        "idCounter": 42,
+        "consistencyGroup": 1,
+        "elementCount": 126
+      },
+      {
+        "name": "networkAttributes",
+        "idCounter": 42,
+        "consistencyGroup": 1,
+        "elementCount": 2
+      },
+      {
+        "name": "nodeAttributes",
+        "idCounter": 42,
+        "consistencyGroup": 1,
+        "elementCount": 24
+      }
+    ]
+  },
+  {
+    "nodes": [
+      {
+        "@id": 0,
+        "n": "p-S1981,Ac-K3016-ATM"
+      },
+      {
+        "@id": 1,
+        "n": "TP53"
+      },
+      {
+        "@id": 3,
+        "n": "ABL1"
+      },
+      {
+        "@id": 5,
+        "n": "phospho-Chk1"
+      },
+      {
+        "@id": 6,
+        "n": "BRCA2"
+      },
+      {
+        "@id": 8,
+        "n": "RAD51"
+      },
+      {
+        "@id": 10,
+        "n": "p-S,3T-CHEK2"
+      },
+      {
+        "@id": 11,
+        "n": "phospho-BRCA1"
+      },
+      {
+        "@id": 13,
+        "n": "p-S456-ABL1"
+      },
+      {
+        "@id": 14,
+        "n": "RAD52"
+      },
+      {
+        "@id": 16,
+        "n": "PIAS3"
+      },
+      {
+        "@id": 17,
+        "n": "Ub-XPC"
+      },
+      {
+        "@id": 19,
+        "n": "PIAS1"
+      },
+      {
+        "@id": 21,
+        "n": "PPP5C"
+      },
+      {
+        "@id": 22,
+        "n": "p-S25,S1778-TP53BP1"
+      },
+      {
+        "@id": 25,
+        "n": "p-EYA2"
+      },
+      {
+        "@id": 26,
+        "n": "diphospho-H2AFX"
+      },
+      {
+        "@id": 28,
+        "n": "p-EYA1"
+      },
+      {
+        "@id": 30,
+        "n": "p-EYA4"
+      },
+      {
+        "@id": 32,
+        "n": "p-EYA3"
+      },
+      {
+        "@id": 34,
+        "n": "SIRT6"
+      },
+      {
+        "@id": 35,
+        "n": "Acetylated CtIP"
+      },
+      {
+        "@id": 39,
+        "n": "USP45"
+      },
+      {
+        "@id": 40,
+        "n": "Ub-ERCC1"
+      }
+    ]
+  },
+  {
+    "edges": [
+      {
+        "@id": 2,
+        "s": 0,
+        "t": 1,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 4,
+        "s": 0,
+        "t": 3,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 7,
+        "s": 5,
+        "t": 6,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 9,
+        "s": 5,
+        "t": 8,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 12,
+        "s": 10,
+        "t": 11,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 15,
+        "s": 13,
+        "t": 14,
+        "i": "Phosphorylation"
+      },
+      {
+        "@id": 18,
+        "s": 16,
+        "t": 17,
+        "i": "Sumoylation"
+      },
+      {
+        "@id": 20,
+        "s": 19,
+        "t": 17,
+        "i": "Sumoylation"
+      },
+      {
+        "@id": 23,
+        "s": 21,
+        "t": 22,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 24,
+        "s": 21,
+        "t": 22,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 27,
+        "s": 25,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 29,
+        "s": 28,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 31,
+        "s": 30,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 33,
+        "s": 32,
+        "t": 26,
+        "i": "Dephosphorylation"
+      },
+      {
+        "@id": 36,
+        "s": 34,
+        "t": 35,
+        "i": "Deacetylation"
+      },
+      {
+        "@id": 37,
+        "s": 34,
+        "t": 35,
+        "i": "Deacetylation"
+      },
+      {
+        "@id": 38,
+        "s": 34,
+        "t": 35,
+        "i": "Deacetylation"
+      },
+      {
+        "@id": 41,
+        "s": 39,
+        "t": 40,
+        "i": "Deubiquitination"
+      }
+    ]
+  },
+  {
+    "nodeAttributes": [
+      {
+        "po": 0,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 1,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 3,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 5,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 6,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 8,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 10,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 11,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 13,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 14,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 16,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 17,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 19,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 21,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 22,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 25,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 26,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 28,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 30,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 32,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 34,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 35,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 39,
+        "n": "type",
+        "v": "other"
+      },
+      {
+        "po": 40,
+        "n": "type",
+        "v": "other"
+      }
+    ]
+  },
+  {
+    "edgeAttributes": [
+      {
+        "po": 2,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(p-S1981,Ac-K3016-ATM(mods: (phosphorylation, S, 1981), (acetylation, K, 3016)), TP53(), S, 15)"
+      },
+      {
+        "po": 2,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"p-S1981,Ac-K3016-ATM\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1981\", \"is_modified\": true}, {\"mod_type\": \"acetylation\", \"residue\": \"K\", \"position\": \"3016\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"TP53\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"15\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis87\", \"epistemics\": {\"direct\": true}}], \"id\": \"5098de7b-e739-4408-b78a-bbc2ea2ff4e5\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 2,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 2,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 2,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 2,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "p-S1981,Ac-K3016-ATM",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1981",
+                "is_modified": true
+              },
+              {
+                "mod_type": "acetylation",
+                "residue": "K",
+                "position": "3016",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "TP53",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "15",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis87",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "5098de7b-e739-4408-b78a-bbc2ea2ff4e5",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 2,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 4,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(p-S1981,Ac-K3016-ATM(mods: (phosphorylation, S, 1981), (acetylation, K, 3016)), ABL1(), S, 456)"
+      },
+      {
+        "po": 4,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"p-S1981,Ac-K3016-ATM\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1981\", \"is_modified\": true}, {\"mod_type\": \"acetylation\", \"residue\": \"K\", \"position\": \"3016\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"ABL1\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"456\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis88\", \"epistemics\": {\"direct\": true}}], \"id\": \"8b342109-94b4-44af-ae36-135ecf0b38cb\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 4,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 4,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 4,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 4,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "p-S1981,Ac-K3016-ATM",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1981",
+                "is_modified": true
+              },
+              {
+                "mod_type": "acetylation",
+                "residue": "K",
+                "position": "3016",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "ABL1",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "456",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis88",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "8b342109-94b4-44af-ae36-135ecf0b38cb",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 4,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 7,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(phospho-Chk1(mods: (phosphorylation, S, 345), (phosphorylation, S, 317)), BRCA2(), T, 3387)"
+      },
+      {
+        "po": 7,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"phospho-Chk1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"345\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"BRCA2\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"3387\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis100\", \"epistemics\": {\"direct\": true}}], \"id\": \"01f74040-4820-4fcb-86ea-5002beae4adc\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 7,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 7,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 7,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 7,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "phospho-Chk1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "345",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "317",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "BRCA2",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "3387",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis100",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "01f74040-4820-4fcb-86ea-5002beae4adc",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 7,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 9,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(phospho-Chk1(mods: (phosphorylation, S, 345), (phosphorylation, S, 317)), RAD51(), T, 309)"
+      },
+      {
+        "po": 9,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"phospho-Chk1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"345\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"317\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"RAD51\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"T\", \"position\": \"309\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis99\", \"epistemics\": {\"direct\": true}}], \"id\": \"35dcd227-28b3-49d1-bf62-681bb91fa0f7\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 9,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 9,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 9,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 9,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "phospho-Chk1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "345",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "317",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "RAD51",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "T",
+          "position": "309",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis99",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "35dcd227-28b3-49d1-bf62-681bb91fa0f7",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 9,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 12,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(p-S,3T-CHEK2(mods: (phosphorylation, T, 387), (phosphorylation, T, 383), (phosphorylation, S, 379), (phosphorylation, T, 68)), phospho-BRCA1(mods: (phosphorylation, S, 1524), (phosphorylation, S, 1423), (phosphorylation, S, 1547), (phosphorylation, S, 1387)), S, 988)"
+      },
+      {
+        "po": 12,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"p-S,3T-CHEK2\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"T\", \"position\": \"387\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"T\", \"position\": \"383\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"379\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"T\", \"position\": \"68\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"phospho-BRCA1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1524\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1423\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1547\", \"is_modified\": true}, {\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"1387\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"988\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis86\", \"epistemics\": {\"direct\": true}}], \"id\": \"8eca2efa-9313-455b-bc6b-7a501a2f1541\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 12,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 12,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 12,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 12,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "p-S,3T-CHEK2",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "T",
+                "position": "387",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "T",
+                "position": "383",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "379",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "T",
+                "position": "68",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "phospho-BRCA1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1524",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1423",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1547",
+                "is_modified": true
+              },
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "1387",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "988",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis86",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "8eca2efa-9313-455b-bc6b-7a501a2f1541",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 12,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 15,
+        "n": "INDRA statement",
+        "v": "Phosphorylation(p-S456-ABL1(mods: (phosphorylation, S, 456)), RAD52(), Y, 104)"
+      },
+      {
+        "po": 15,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Phosphorylation\", \"enz\": {\"name\": \"p-S456-ABL1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"456\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"RAD52\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"Y\", \"position\": \"104\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis106\", \"epistemics\": {\"direct\": true}}], \"id\": \"677d3ad4-16ae-48f8-8c38-2f3e96da4a0f\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000216\"}"
+      },
+      {
+        "po": 15,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 15,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 15,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 15,
+        "n": "indra",
+        "v": {
+          "type": "Phosphorylation",
+          "enz": {
+            "name": "p-S456-ABL1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "456",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "RAD52",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "Y",
+          "position": "104",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis106",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "677d3ad4-16ae-48f8-8c38-2f3e96da4a0f",
+          "sbo": "http://identifiers.org/sbo/SBO:0000216"
+        }
+      },
+      {
+        "po": 15,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 18,
+        "n": "INDRA statement",
+        "v": "Sumoylation(PIAS3(), Ub-XPC(mods: (ubiquitination, K)), K)"
+      },
+      {
+        "po": 18,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Sumoylation\", \"enz\": {\"name\": \"PIAS3\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"Ub-XPC\", \"mods\": [{\"mod_type\": \"ubiquitination\", \"residue\": \"K\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"K\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis123\", \"epistemics\": {\"direct\": true}}], \"id\": \"6a01a9ab-5502-486b-bd7d-18d873bda0f7\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000210\"}"
+      },
+      {
+        "po": 18,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 18,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 18,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 18,
+        "n": "indra",
+        "v": {
+          "type": "Sumoylation",
+          "enz": {
+            "name": "PIAS3",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "Ub-XPC",
+            "mods": [
+              {
+                "mod_type": "ubiquitination",
+                "residue": "K",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "K",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis123",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "6a01a9ab-5502-486b-bd7d-18d873bda0f7",
+          "sbo": "http://identifiers.org/sbo/SBO:0000210"
+        }
+      },
+      {
+        "po": 18,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 20,
+        "n": "INDRA statement",
+        "v": "Sumoylation(PIAS1(), Ub-XPC(mods: (ubiquitination, K)), K)"
+      },
+      {
+        "po": 20,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Sumoylation\", \"enz\": {\"name\": \"PIAS1\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"Ub-XPC\", \"mods\": [{\"mod_type\": \"ubiquitination\", \"residue\": \"K\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"K\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis123\", \"epistemics\": {\"direct\": true}}], \"id\": \"a7b34806-2d38-4d2d-ad6a-77446a38e4d9\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000210\"}"
+      },
+      {
+        "po": 20,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 20,
+        "n": "polarity",
+        "v": "positive"
+      },
+      {
+        "po": 20,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 20,
+        "n": "indra",
+        "v": {
+          "type": "Sumoylation",
+          "enz": {
+            "name": "PIAS1",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "Ub-XPC",
+            "mods": [
+              {
+                "mod_type": "ubiquitination",
+                "residue": "K",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "K",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis123",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "a7b34806-2d38-4d2d-ad6a-77446a38e4d9",
+          "sbo": "http://identifiers.org/sbo/SBO:0000210"
+        }
+      },
+      {
+        "po": 20,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 23,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP5C(), p-S25,S1778-TP53BP1(), S, 1778)"
+      },
+      {
+        "po": 23,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP5C\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"p-S25,S1778-TP53BP1\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"1778\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis82\", \"epistemics\": {\"direct\": true}}], \"id\": \"cf30cea9-101b-4496-8e76-405c92aa819b\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 23,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 23,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 23,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 23,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP5C",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "p-S25,S1778-TP53BP1",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "1778",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis82",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "cf30cea9-101b-4496-8e76-405c92aa819b",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 23,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 24,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(PPP5C(), p-S25,S1778-TP53BP1(), S, 25)"
+      },
+      {
+        "po": 24,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"PPP5C\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"p-S25,S1778-TP53BP1\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"S\", \"position\": \"25\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis82\", \"epistemics\": {\"direct\": true}}], \"id\": \"fffa637c-9db0-4346-935d-98edfa81ed2b\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 24,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 24,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 24,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 24,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "PPP5C",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "p-S25,S1778-TP53BP1",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "S",
+          "position": "25",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis82",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "fffa637c-9db0-4346-935d-98edfa81ed2b",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 24,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 27,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(p-EYA2(mods: (phosphorylation)), diphospho-H2AFX(mods: (phosphorylation, S, 140)), Y, 143)"
+      },
+      {
+        "po": 27,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"p-EYA2\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"diphospho-H2AFX\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"140\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"Y\", \"position\": \"143\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis73\", \"epistemics\": {\"direct\": true}}], \"id\": \"51680376-a67f-4117-826e-c9599dfb4f3e\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 27,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 27,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 27,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 27,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "p-EYA2",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "diphospho-H2AFX",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "140",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "Y",
+          "position": "143",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis73",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "51680376-a67f-4117-826e-c9599dfb4f3e",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 27,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 29,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(p-EYA1(mods: (phosphorylation)), diphospho-H2AFX(mods: (phosphorylation, S, 140)), Y, 143)"
+      },
+      {
+        "po": 29,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"p-EYA1\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"diphospho-H2AFX\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"140\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"Y\", \"position\": \"143\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis73\", \"epistemics\": {\"direct\": true}}], \"id\": \"0d835653-b519-4dc4-a37c-e22543c606de\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 29,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 29,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 29,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 29,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "p-EYA1",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "diphospho-H2AFX",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "140",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "Y",
+          "position": "143",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis73",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "0d835653-b519-4dc4-a37c-e22543c606de",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 29,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 31,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(p-EYA4(mods: (phosphorylation)), diphospho-H2AFX(mods: (phosphorylation, S, 140)), Y, 143)"
+      },
+      {
+        "po": 31,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"p-EYA4\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"diphospho-H2AFX\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"140\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"Y\", \"position\": \"143\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis73\", \"epistemics\": {\"direct\": true}}], \"id\": \"f0ee8b93-220d-4675-8b62-e4afd034ab81\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 31,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 31,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 31,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 31,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "p-EYA4",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "diphospho-H2AFX",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "140",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "Y",
+          "position": "143",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis73",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "f0ee8b93-220d-4675-8b62-e4afd034ab81",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 31,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 33,
+        "n": "INDRA statement",
+        "v": "Dephosphorylation(p-EYA3(mods: (phosphorylation, S)), diphospho-H2AFX(mods: (phosphorylation, S, 140)), Y, 143)"
+      },
+      {
+        "po": 33,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Dephosphorylation\", \"enz\": {\"name\": \"p-EYA3\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"diphospho-H2AFX\", \"mods\": [{\"mod_type\": \"phosphorylation\", \"residue\": \"S\", \"position\": \"140\", \"is_modified\": true}], \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"Y\", \"position\": \"143\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis73\", \"epistemics\": {\"direct\": true}}], \"id\": \"1c18292b-0c10-4c00-b223-439b4ba81de4\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000330\"}"
+      },
+      {
+        "po": 33,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 33,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 33,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 33,
+        "n": "indra",
+        "v": {
+          "type": "Dephosphorylation",
+          "enz": {
+            "name": "p-EYA3",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "diphospho-H2AFX",
+            "mods": [
+              {
+                "mod_type": "phosphorylation",
+                "residue": "S",
+                "position": "140",
+                "is_modified": true
+              }
+            ],
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "Y",
+          "position": "143",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis73",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "1c18292b-0c10-4c00-b223-439b4ba81de4",
+          "sbo": "http://identifiers.org/sbo/SBO:0000330"
+        }
+      },
+      {
+        "po": 33,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 36,
+        "n": "INDRA statement",
+        "v": "Deacetylation(SIRT6(), Acetylated CtIP(), K, 604)"
+      },
+      {
+        "po": 36,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Deacetylation\", \"enz\": {\"name\": \"SIRT6\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"Acetylated CtIP\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"K\", \"position\": \"604\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis91\", \"epistemics\": {\"direct\": true}}], \"id\": \"4306a2d6-25c1-48b8-ad29-8e81e574a071\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000211\"}"
+      },
+      {
+        "po": 36,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 36,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 36,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 36,
+        "n": "indra",
+        "v": {
+          "type": "Deacetylation",
+          "enz": {
+            "name": "SIRT6",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "Acetylated CtIP",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "K",
+          "position": "604",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis91",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "4306a2d6-25c1-48b8-ad29-8e81e574a071",
+          "sbo": "http://identifiers.org/sbo/SBO:0000211"
+        }
+      },
+      {
+        "po": 36,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 37,
+        "n": "INDRA statement",
+        "v": "Deacetylation(SIRT6(), Acetylated CtIP(), K, 526)"
+      },
+      {
+        "po": 37,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Deacetylation\", \"enz\": {\"name\": \"SIRT6\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"Acetylated CtIP\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"K\", \"position\": \"526\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis91\", \"epistemics\": {\"direct\": true}}], \"id\": \"5ba229c8-2dc6-4be3-88cf-714163e2d214\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000211\"}"
+      },
+      {
+        "po": 37,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 37,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 37,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 37,
+        "n": "indra",
+        "v": {
+          "type": "Deacetylation",
+          "enz": {
+            "name": "SIRT6",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "Acetylated CtIP",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "K",
+          "position": "526",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis91",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "5ba229c8-2dc6-4be3-88cf-714163e2d214",
+          "sbo": "http://identifiers.org/sbo/SBO:0000211"
+        }
+      },
+      {
+        "po": 37,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 38,
+        "n": "INDRA statement",
+        "v": "Deacetylation(SIRT6(), Acetylated CtIP(), K, 432)"
+      },
+      {
+        "po": 38,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Deacetylation\", \"enz\": {\"name\": \"SIRT6\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"Acetylated CtIP\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"K\", \"position\": \"432\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis91\", \"epistemics\": {\"direct\": true}}], \"id\": \"ddbfedf7-f266-492b-9215-4dbcdd26d7cb\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000211\"}"
+      },
+      {
+        "po": 38,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 38,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 38,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 38,
+        "n": "indra",
+        "v": {
+          "type": "Deacetylation",
+          "enz": {
+            "name": "SIRT6",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "Acetylated CtIP",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "K",
+          "position": "432",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis91",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "ddbfedf7-f266-492b-9215-4dbcdd26d7cb",
+          "sbo": "http://identifiers.org/sbo/SBO:0000211"
+        }
+      },
+      {
+        "po": 38,
+        "n": "supportType",
+        "v": "database"
+      },
+      {
+        "po": 41,
+        "n": "INDRA statement",
+        "v": "Deubiquitination(USP45(), Ub-ERCC1(), K)"
+      },
+      {
+        "po": 41,
+        "n": "INDRA json",
+        "v": "{\"type\": \"Deubiquitination\", \"enz\": {\"name\": \"USP45\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000460\"}, \"sub\": {\"name\": \"Ub-ERCC1\", \"db_refs\": {}, \"sbo\": \"http://identifiers.org/sbo/SBO:0000015\"}, \"residue\": \"K\", \"evidence\": [{\"source_api\": \"biopax\", \"source_id\": \"http://www.reactome.org/biopax/63/73894#Catalysis125\", \"epistemics\": {\"direct\": true}}], \"id\": \"e37b659e-ee72-477b-8aeb-8ce3ea2d2e9f\", \"sbo\": \"http://identifiers.org/sbo/SBO:0000211\"}"
+      },
+      {
+        "po": 41,
+        "n": "type",
+        "v": "Modification"
+      },
+      {
+        "po": 41,
+        "n": "polarity",
+        "v": "negative"
+      },
+      {
+        "po": 41,
+        "n": "Belief score",
+        "v": "1.00"
+      },
+      {
+        "po": 41,
+        "n": "indra",
+        "v": {
+          "type": "Deubiquitination",
+          "enz": {
+            "name": "USP45",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000460"
+          },
+          "sub": {
+            "name": "Ub-ERCC1",
+            "db_refs": {},
+            "sbo": "http://identifiers.org/sbo/SBO:0000015"
+          },
+          "residue": "K",
+          "evidence": [
+            {
+              "source_api": "biopax",
+              "source_id": "http://www.reactome.org/biopax/63/73894#Catalysis125",
+              "epistemics": {
+                "direct": true
+              }
+            }
+          ],
+          "id": "e37b659e-ee72-477b-8aeb-8ce3ea2d2e9f",
+          "sbo": "http://identifiers.org/sbo/SBO:0000211"
+        }
+      },
+      {
+        "po": 41,
+        "n": "supportType",
+        "v": "database"
+      }
+    ]
+  },
+  {
+    "citations": []
+  },
+  {
+    "edgeCitations": []
+  },
+  {
+    "supports": []
+  },
+  {
+    "edgeSupports": []
+  },
+  {
+    "networkAttributes": [
+      {
+        "n": "name",
+        "v": "indra_assembled"
+      },
+      {
+        "n": "description",
+        "v": ""
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "error": "",
+        "success": true
+      }
+    ]
+  }
+]

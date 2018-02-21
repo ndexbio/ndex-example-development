@@ -1,0 +1,63 @@
+[
+  {
+    "numberVerification": [
+      {
+        "longNumber": 281474976710655
+      }
+    ]
+  },
+  {
+    "metaData": [
+      {
+        "name": "networkAttributes",
+        "idCounter": 0,
+        "consistencyGroup": 1,
+        "elementCount": 2
+      }
+    ]
+  },
+  {
+    "nodes": []
+  },
+  {
+    "edges": []
+  },
+  {
+    "nodeAttributes": []
+  },
+  {
+    "edgeAttributes": []
+  },
+  {
+    "citations": []
+  },
+  {
+    "edgeCitations": []
+  },
+  {
+    "supports": []
+  },
+  {
+    "edgeSupports": []
+  },
+  {
+    "networkAttributes": [
+      {
+        "n": "name",
+        "v": "indra_assembled"
+      },
+      {
+        "n": "description",
+        "v": ""
+      }
+    ]
+  },
+  {
+    "status": [
+      {
+        "error": "",
+        "success": true
+      }
+    ]
+  }
+]
