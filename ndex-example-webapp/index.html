@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="ndex-client.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    -->
+    <script>
+
+        /*
+         $(document).ready(function(){
+         $("#button1").click(function(){
+         $("#div1").load("http://www.ndexbio.org/rest/network/73d1a893-6186-11e5-8ac5-06603eb7f303");
+         });
+         });
+         */
+
+        var cyRest = "cy rest";
+        var cyNDEx2 = "cy ndex";
+        var currentCX = [];
+        var publicCX = [];
+        //var cyNetworks = [];
+        var currentNetwork = null;
+        var cyNodes = null;
+        var cyEdges = null;
+
+        // convenient sign-in function
+        signIn = function (userName, password) {
+            ndexClient.authenticateUser(userName, password, {
+                success: function (data) {
+                    ndexClient.setUserCredentials(data.userName, data.externalId, password);
+                    $("#auth").text(data.firstName + " " + data.lastName);
+                },
+                error: function (error, status) {
+                    $("#auth").text(error);
+
+                }
+            })
+        };
+
+
+        $(document).ready(function () {
+            $("#authButton").click(function () {
+                signIn("dexterpratt", "akt1gsk3b2")
+            });
+        });
+
+        $(document).ready(function () {
+            $("#button1").click(function () {
+                ndexClient.getNetworkSummary("73d1a893-6186-11e5-8ac5-06603eb7f303",
+                    {
+                        success: function (data) {
+                            $("#div1").text(JSON.stringify(data, 4));
+                        },
+                        error: function () {
+                            $("#div1").text("ndex error");
+                        }
+                    });
+            });
+        });
+
+        $(document).ready(function () {
+            $("#userInfoButton").click(function () {
+                $("#userInfo").text(JSON.stringify(ndexClient.getUserInfo()));
+            });
+        });
+
+        $(document).ready(function () {
+            $("#publicNetworkButton").click(function () {
+                ndexClient.getNetwork("73d1a893-6186-11e5-8ac5-06603eb7f303",
+                    {
+                        success: function (data) {
+                            publicCX = data;
+                            $("#publicNetwork").text(publicCX.length);
+                        },
+                        error: function (error, status) {
+                            $("#publicNetwork").text(status);
+                        }
+                    });
+            });
+        });
+
+        $(document).ready(function () {
+            $("#privateNetworkButton").click(function () {
+                ndexClient.getNetwork("64aadab0-7d25-11e7-a10d-0ac135e8bacf",
+                    {
+                        success: function (data) {
+                            privateCX = data;
+                            $("#privateNetwork").text(privateCX.length);
+                        },
+                        error: function (error, status) {
+                            $("#privateNetwork").text(status);
+                        }
+                    });
+            });
+        });
+
+        $(document).ready(function () {
+            $("#createNetworkButton").click(function () {
+                ndexClient.createNetwork(currentCX,
+                    {
+                        success: function (data) {
+                            var url = ndexClient.getUUIDfromURL(data);
+                            $("#newNetwork").text(url);
+                        },
+                        error: function (error, status) {
+                            $("#newNetwork").text(status);
+                        }
+                    });
+            });
+        });
+
+        $(document).ready(function () {
+            //$("#code1").text(signIn.toString());
+
+            $("#code1").html(JSON.stringify(signIn.toString(), undefined, 4));
+            $.get({
+                url: 'http://localhost:1234/v1',
+                success: function (data) {
+                    console.log(JSON.stringify(data));
+                    $("#cyrest_status").html("<h2>Cytoscape is running</h2>");
+                    cyRest = true;
+                    $.get({
+                        url: 'http://localhost:1234/cyndex2/v1',
+                        success: function (data) {
+
+                            var version = data['data']['appVersion'];
+                            $('#cyndex2_status').html("<h2>CyNDEx2 " + version + "</h2>");
+                            cyNDEx2 = true;
+                        },
+                        error: function (data) {
+                            console.log("error catcher is working: " + data);
+                            $('#cyndex2_status').html("<h2>...but cyNDEx2 is not.</h2>");
+
+                        }
+                    });
+                },
+                error: function () {
+                    $('#cyrest_status').html("<h2>Cytoscape is not running on the local machine</h2>");
+                }
+            });
+            $("#NDExNetworkToCytoscapeButton").click(function () {
+                var postData = JSON.stringify({
+                    uuid: "73d1a893-6186-11e5-8ac5-06603eb7f303",
+                    serverUrl: "http://ndexbio.org/v2",
+                    userId: "dexterpratt",
+                    password: "akt1gsk3b2"
+                });
+                $.post({
+                    url: 'http://localhost:1234/cyndex2/v1/networks',
+                    data: postData,
+                    success: function (data) {
+                        console.log(data);
+                    },
+                    dataType: "application/json",
+                    contentType: "application/json",
+                    crossDomain: true,
+                    error: function (err) {
+                        console.log(err);
+                    }
+
+                });
+            });
+            $("#getCurrentNetworkInCytoscapeButton").click(function () {
+                $.get({
+                    url: 'http://localhost:1234/cyndex2/v1/networks/current',
+                    success: function (data) {
+                        console.log(data.responseText);
+                        currentNetwork = JSON.parse(data.responseText);
+                        console.log(currentNetwork);
+                        $('#cytoscapeNetwork').text(data.responseText);
+                    },
+                    dataType: "application/json",
+                    crossDomain: true,
+                    error: function (err) {
+                        console.log("error getting current network in cytoscape: ");
+                        console.log(err);
+                        var response = JSON.parse(err.responseText);
+                        console.log(response);
+                        currentNetwork = JSON.parse(err.responseText);
+                        $('#cytoscapeNetwork').text(err.responseText);
+                    }
+
+                });
+            });
+
+            $("#getNetworkContentInCytoscapeButton").click(function () {
+                if (currentNetwork) {
+                    var suid = currentNetwork.data.currentNetworkSuid;
+
+                    $.get({
+                        url: 'http://localhost:1234/v1/networks/' + suid + '/nodes',
+                        success: function (data) {
+                            console.log(data.responseText);
+                            cyNodes = JSON.parse(data.responseText);
+                            $('#cytoscapeNodes').text(data.responseText);
+                        },
+                        dataType: "application/json",
+                        crossDomain: true,
+                        error: function (err) {
+                            console.log("error getting nodes in cytoscape: ");
+                            console.log(err);
+                            var response = JSON.parse(err.responseText);
+                            console.log(response);
+                            cyNodes = JSON.parse(err.responseText);
+                            $('#cytoscapeNodes').text(err.responseText);
+                        }
+
+                    });
+                    $.get({
+                        url: 'http://localhost:1234/v1/networks/' + suid + '/edges',
+                        success: function (data) {
+                            console.log(data.responseText);
+                            cyEdges = JSON.parse(data.responseText);
+                            $('#cytoscapeEdges').text(data.responseText);
+                        },
+                        dataType: "application/json",
+                        crossDomain: true,
+                        error: function (err) {
+                            console.log("error getting edges in cytoscape: ");
+                            console.log(err);
+                            var response = JSON.parse(err.responseText);
+                            console.log(response);
+                            cyEdges = JSON.parse(err.responseText);
+                            $('#cytoscapeEdges').text(err.responseText);
+                        }
+
+                    });
+                } else {
+                    console.log("no currentNetwork");
+                }
+            });
+        });
+
+    </script>
+</head>
+<body>
+
+<div id="cyrest_status"><h2>status</h2></div>
+<div id="cyndex2_status"><h2>status</h2></div>
+
+<button id="NDExNetworkToCytoscapeButton">Network to Cytoscape</button>
+
+<div></div>
+
+<button id="getCurrentNetworkInCytoscapeButton">Get Current Networks in Cytoscape</button>
+<div id="cytoscapeNetwork"><h2>Cytoscape Network</h2></div>
+
+<div></div>
+
+<button id="getNetworkContentInCytoscapeButton">Get Nodes and Edges in Cytoscape</button>
+<div id="cytoscapeNodes"><h2>Cytoscape Nodes</h2></div>
+
+<div id="cytoscapeEdges"><h2>Cytoscape Nodes</h2></div>
+
+<div><a href="cycmd:view fit content">Click to fit the content in Cytoscape</a></div>
+
+<div id="code1"></div>
+
+<button id="button1">Get Public Network Summary</button>
+<div id="div1"><h2>(network summary)</h2></div>
+
+<button id="publicNetworkButton">Get Public Network</button>
+<div id="publicNetwork"><h2>(network)</h2></div>
+
+
+<button id="authButton">Sign in Dexter</button>
+<div id="auth"><h2>(status)</h2></div>
+
+
+<button id="userInfoButton">get user info</button>
+<div id="userInfo"><h2>(info)</h2></div>
+
+<button id="privateNetworkButton">get a private network from dexter</button>
+<div id="privateNetwork"><h2>(network)</h2></div>
+
+<button id="createNetworkButton">write currentCX as new network</button>
+<div id="newNetwork"><h2>(new network...)</h2></div>
+
+</body>
+</html>
