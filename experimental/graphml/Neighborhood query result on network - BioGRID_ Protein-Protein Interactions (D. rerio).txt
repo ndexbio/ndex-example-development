@@ -1,0 +1,2 @@
+Source Node	Interaction	Target Node	Source ID	Source alias	Source Organism Taxon Id	Target ID	Target alias	Target Organism Taxon Id	citation	Experimental System	Experimental System Type	Throughput	cx edge id	cx source node id	cx target node id
+stub1	Interacts with	ube2d1b	ncbigene:324243	wu:fc22f04|zgc:56076	7955	ncbigene:324015	ube2d1|wu:fc16h06|zgc:73096	7955	pubmed:18485199	Co-crystal Structure	physical	Low Throughput	0	0	1
