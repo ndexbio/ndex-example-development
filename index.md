@@ -7,7 +7,7 @@ will be migrated to another repo.
 
 - collaboration - _Reasonably solid, suitable for collaborators_
   - notebooks - _Jupyter notebooks as primary vehicle
-   -[styling a network using another network as a template](https://github.com/ndexbio/ndex-example-development/blob/master/notebooks)
+    - [styling a network using another network as a template](https://github.com/ndexbio/ndex-example-development/blob/master/notebooks)
   - resources - _local files that notebooks depend on. Images, JSON, CX, etc._
   - modules - _support notebooks_
   - services - _support web app development_
