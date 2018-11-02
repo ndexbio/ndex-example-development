@@ -13,6 +13,7 @@ will be migrated to another repo.
   - scripts - command line python scripts
 - experimental - _not so stable, internal development_ 
   - notebooks
+    -[styling](https://github.com/ndexbio/ndex-example-development/blob/master/notebooks/NiceCX%20Layout%20and%20Styling.ipynb)
   - resources
   - modules
   - services
