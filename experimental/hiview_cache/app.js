@@ -14,6 +14,7 @@ var cx2cy_service_base_url = 'http://35.203.154.74:3001/ndex2cyjs/'
 var cx2cy_query_string = '?server=test'
 
 function getUuids(){
+    //TODO - replace with service call or external file
     return ['7b070b40-e555-11e8-9c46-0660b7976219']; //['c3179d6e-ca96-11e8-98d5-0660b7976219', '7b070b40-e555-11e8-9c46-0660b7976219', '2814c6d7-e54e-11e8-9c46-0660b7976219'] //['c3179d6e-ca96-11e8-98d5-0660b7976219'] #
 
 }
@@ -49,7 +50,7 @@ function processCXToCyJs() {
             } else {
                 var uriSplit = response.request.uri.pathname.split('/');
                 var uuidFromUri = uriSplit[uriSplit.length - 1];
-                fs.writeFile("./ingest/" + uuidFromUri + ".json" , response.body, function(err) {
+                fs.writeFile("./cyjs_files/" + uuidFromUri + ".json" , response.body, function(err) {
                     if(err) {
                         return console.log(err);
                     }
@@ -114,11 +115,11 @@ function processCXToD3() {
 
 function processCyJsToD3() {
     console.log("Processing d3 files");
-    fs.readdir("./ingest", (err, files) => {
+    fs.readdir("./cyjs_files", (err, files) => {
         files.forEach(file => {
             if(file != ".DS_Store"){
                 console.log("Reading files " + file);
-                var content = fs.readFileSync("./ingest/" + file);
+                var content = fs.readFileSync("./cyjs_files/" + file);
                 var d3Results = cyjs2tree(JSON.parse(content));
                 var d3String = util.inspect(d3Results, {compact: false, depth: 10, maxArrayLength: null});
                 //console.log(d3Results);
@@ -151,10 +152,6 @@ if(switchParam != null){
         default:
             console.log("No parameter provided");
     }
+} else {
+    console.log("Please indicate which process you want to run. (1-3)");
 }
-
-
-
-/*
-*/
-//console.log(d3Converter.filename);
