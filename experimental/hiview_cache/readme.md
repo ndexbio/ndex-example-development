@@ -2,7 +2,7 @@
 
 #### Install dependencies
 ```javascript
-node install
+npm install
 ```
 
 #### Run the processing script
