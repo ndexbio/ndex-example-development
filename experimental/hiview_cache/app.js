@@ -4,6 +4,7 @@ var util = require('util')
 var request = require('request');
 var http = require('http');
 import cyjs2tree from './cyjs2tree'
+//import cyjs2tree from './_cyjs2tree.js'
 
 var fs = require("fs");
 console.log("\n *START* \n");
@@ -15,7 +16,7 @@ var cx2cy_query_string = '?server=test'
 
 function getUuids(){
     //TODO - replace with service call or external file
-    return ['7b070b40-e555-11e8-9c46-0660b7976219']; //['c3179d6e-ca96-11e8-98d5-0660b7976219', '7b070b40-e555-11e8-9c46-0660b7976219', '2814c6d7-e54e-11e8-9c46-0660b7976219'] //['c3179d6e-ca96-11e8-98d5-0660b7976219'] #
+    return ['c3179d6e-ca96-11e8-98d5-0660b7976219']; //['c3179d6e-ca96-11e8-98d5-0660b7976219', '7b070b40-e555-11e8-9c46-0660b7976219', '2814c6d7-e54e-11e8-9c46-0660b7976219'] //['c3179d6e-ca96-11e8-98d5-0660b7976219'] #
 
 }
 
