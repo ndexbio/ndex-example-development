@@ -19,6 +19,16 @@ if(process.argv.length > 2){
     switchParam = process.argv[2];
 }
 
+var cyjsDir = './cyjs_files';
+if (!fs.existsSync(cyjsDir)){
+    fs.mkdirSync(cyjsDir);
+}
+
+var d3Dir = './D3_files';
+if (!fs.existsSync(d3Dir)){
+    fs.mkdirSync(d3Dir);
+}
+
 //==========================================
 //==========================================
 // FUNCTIONS TO PROCESS CX TO TARGET FORMAT
